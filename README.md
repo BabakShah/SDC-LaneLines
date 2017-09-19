@@ -1,38 +1,33 @@
-#Self-Driving Car Project: Finding Lane Lines on the Road
+# Self-Driving Car Project: Lane Lines Detection on the Road
 
-<img src="laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
+<img src="SDC_LaneLines.jpg" width="480" alt="Mercedes-Benz Lane Line Detection" />
 
-    One of the first things in developing a self-driving car is to automatically detect lane lines on the road using an algorithm in Pyhton and OpenCV.
+Hello there! I'm Babak Shahian Jahromi, graduate engineering student at University of Illinois. Let me introduce you to my project.
+In this project lane lines on the road are automatically detected, this is the first step in developing a self-driving car. Algorithm for this project is written in Pyhton using OpenCV, numpy, glob and matplotlib libraries. The algorithm was tested on both actual images and videos.
 
-**Contents** 
-* Python script
+**Contents**   
+
+* Python script 
 * IPython notebook
 * Test_input folder
 * Test_output folder
 * Readme file
 
-### Reflection
-
 ### Pipeline:
 The pipeline for detecting lane lines on the road is as follows:
-1. Reading the input images from the test_input folder
-2. Apply grayscale transform to convert RGB into grayscale
-3. Reducing noise using Gaussian noise kernel
-4. Apply Canny transform to get edges
-5. Mask the image and apply region of interest
-6. Apply Hough transform to find lines
-7. Blending the Hough output image and the unprocessed image
-8. Plotting and saving the output images into the test_output folder
 
-Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+1. Reading the input images/videos from the test_input folder.
+2. Apply grayscale transform to convert RGB into grayscale.
+3. Reducing noise using Gaussian noise kernel.
+4. Apply Canny transform to get edges.
+5. Mask the image and apply region of interest.
+6. Apply Hough transform to find lines and drawing lines on the image with the desired color and thickness.
+7. Blending the Hough output image and the unprocessed image.
+8. Plotting and saving the output images/videos into the test_output folder.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+Main stages of lane line detection can be seen below: 
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
+<img src="Figure_1.png" width="750" alt="Six stages of lane line detection">
 
 
 ### shortcomings:
