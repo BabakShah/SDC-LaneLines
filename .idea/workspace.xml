@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d9dd5e3-af65-4b46-bc0b-16d2ba005672" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P1.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P1_example.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/challenge.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laneLines_thirdPass.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/line-segments-example.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/raw-lines-example.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solidWhiteRight.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/solidYellowLeft.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_images/solidWhiteCurve.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_images/solidWhiteRight.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_images/solidYellowCurve.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_images/solidYellowCurve2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_images/solidYellowLeft.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_images/whiteCarLaneSwitch.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_output/test_after.jpg" afterPath="$PROJECT_DIR$/test_output/test_after.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SDC-LaneLines.ipynb" afterPath="$PROJECT_DIR$/SDC-LaneLines.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SDC-LaneLines.py" afterPath="$PROJECT_DIR$/SDC-LaneLines.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +18,8 @@
       <file leaf-file-name="SDC-LaneLines.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SDC-LaneLines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="73" column="58" lean-forward="false" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
+            <state relative-caret-position="631">
+              <caret line="177" column="29" lean-forward="true" selection-start-line="177" selection-start-column="29" selection-end-line="177" selection-end-column="29" />
               <folding>
                 <element signature="e#32#49#0" expanded="true" />
               </folding>
@@ -61,7 +47,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="742" />
+    <option name="x" value="82" />
     <option name="y" value="22" />
     <option name="width" value="772" />
     <option name="height" value="1018" />
@@ -154,7 +140,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="742" y="22" width="772" height="1018" extended-state="0" />
+    <frame x="82" y="22" width="772" height="1018" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2111399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -199,8 +185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SDC-LaneLines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="73" column="58" lean-forward="false" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
+        <state relative-caret-position="631">
+          <caret line="177" column="29" lean-forward="true" selection-start-line="177" selection-start-column="29" selection-end-line="177" selection-end-column="29" />
           <folding>
             <element signature="e#32#49#0" expanded="true" />
           </folding>

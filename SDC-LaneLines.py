@@ -143,3 +143,36 @@ for i in range(len(images)):
     # mpimg.imsave("test-after.jpg", color_select)
     plt.imsave("test_output/test_after.jpg", results)
     plt.show()
+
+    import imageio
+
+    imageio.plugins.ffmpeg.download()
+    # Import everything needed to edit/save/watch video clips
+    from moviepy.editor import VideoFileClip
+    from IPython.display import HTML
+
+
+    def process_image(img):
+        # NOTE: The output you return should be a color image (3 channel) for processing video below
+
+        gray = grayscale(img)
+        blur_gray = gaussian_blur(gray, 3)
+        edges = canny(blur_gray, 50, 150)
+        imshape = img.shape
+        vertices = np.array([[(0, imshape[0]), (460, 300), (470, 300), (imshape[1], imshape[0])]], dtype=np.int32)
+        masked_image = region_of_interest(edges, vertices)
+        lines = hough_lines(masked_image, 1, np.pi / 180, 1, 8, 1)
+        results = weighted_img(lines, img)
+        return results
+
+
+    white_output = 'test_output/white.mp4'
+    clip1 = VideoFileClip("test_input/solidWhiteRight.mp4")
+    white_clip = clip1.fl_image(process_image)  # NOTE: this function expects color images!!
+    # % time white_clip.write_videofile(white_output, audio=False)
+
+    HTML("""
+    <video width="960" height="540" controls>
+      <source src="{0}">
+    </video>
+    """.format(white_output))

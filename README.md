@@ -1,6 +1,6 @@
 # Self-Driving Car Project: Lane Lines Detection on the Road
 
-<img src="SDC_LaneLines.jpg" width="480" alt="Mercedes-Benz Lane Line Detection" />
+<img src="readme_images/SDC_LaneLines_Intro.jpg" width="480" alt="Mercedes-Benz Lane Line Detection" />
 
 Hello there! I'm Babak Shahian Jahromi, graduate engineering student at University of Illinois. Let me introduce you to my project.
 In this project lane lines on the road are automatically detected, this is the first step in developing a self-driving car. Algorithm for this project is written in Pyhton using OpenCV, numpy, glob and matplotlib libraries. The algorithm was tested on both actual images and videos.
@@ -12,6 +12,7 @@ In this project lane lines on the road are automatically detected, this is the f
 * Test_input folder
 * Test_output folder
 * Readme file
+* Readme_images folder
 
 ### Pipeline:
 The pipeline for detecting lane lines on the road is as follows:
@@ -27,19 +28,15 @@ The pipeline for detecting lane lines on the road is as follows:
 
 Main stages of lane line detection can be seen below: 
 
-<img src="Figure_1.png" width="750" alt="Six stages of lane line detection">
+<img src="readme_images/SDC_LaneLines_Stages.png" width="750" alt="Six stages of lane line detection">
 
 
 ### shortcomings:
 
 
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+One potential shortcoming is that this pipeline is not suitable for curved lines.
 
 
 ### improvements:
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+A possible improvement is finding solution for when the input image and video is not flat and is somewhat distorted, also updating the algorithm so it can detect any lane lines whether straight or curved.
