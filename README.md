@@ -25,15 +25,10 @@ The pipeline for detecting lane lines on the road is as follows:
 8. Plotting and saving the output images/videos into the test_output folder.
 
 Main stages of lane line detection can be seen below: 
-
-<img src="readme_images/SDC_LaneLines_Stages.png" width="900" alt="Six stages of lane line detection">
-
-
+<img src="readme_images/SDC_LaneLines_Stages.png" width="7500" alt="Six stages of lane line detection">
 ### shortcomings:
 
-
 One potential shortcoming is that this pipeline is not suitable for curved lines.
-
 
 ### improvements:
 
